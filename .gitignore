@@ -1,0 +1,14 @@
+# ignore data files
+# *.feather
+# *.csv
+# *.joblib
+# *.parquet
+# ignore everything...
+* 
+
+# ... except for .ipynb and .py, and thus
+!.gitignore
+!README.md
+!*.py
+!*.ipynb
+!*/
